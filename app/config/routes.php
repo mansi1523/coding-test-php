@@ -65,6 +65,9 @@ return function (RouteBuilder $routes): void {
         $builder->connect('/pages/*', 'Pages::display');
 
         $builder->resources('Articles');
+        $builder->post('/article/like', ['controller' => 'ArticleLikes', 'action' => 'like']);
+
+        $builder->resources('Users');
 
         /*
          * Connect catchall routes for all controllers.
