@@ -41,7 +41,7 @@ The application should now be accessible at http://localhost:34251
 
 ### Authentication (Recommending to use Postman tool)
 
-`POST http://localhost:34251/login`
+`POST http://localhost:34251/users/login`
 ![login](https://github.com/irfanmominmt/coding-test-php/assets/112695126/ad0c9875-08e1-43fa-bbb5-42588d71533a)
 
 - Make sure to pass below JSON object inside raw type.
